@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "key-forecast",
+    "name": "Key Forecast",
     "slug": "key-forecast",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/favicon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/favicon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0D1117",
+      "userInterfaceStyle": "automatic"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +19,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic"
     },
     "android": {
+      "package": "com.key.forecast",
+      "versionCode": 1,
+      "userInterfaceStyle": "automatic",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#0D1117"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "userInterfaceStyle": "automatic"
+    },
+    "description": ""
   }
 }
